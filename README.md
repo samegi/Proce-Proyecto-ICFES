@@ -29,7 +29,7 @@ El cuaderno incluye las siguientes etapas:
 - 1.1. Levantamiento de Variables de Entorno pip
 - 1.2. Levantamiento de Sesión SPARK mediante `findspark`
 
-### 🔹 2. Colección y preparación de datos
+### 🔹 2. Colección y descripcion de datos
 Carga de los datos a utilizar en ambiente de trabajo Apache
 (clúster spark) y se descripción de los datos según los siguientes
 elementos:
@@ -147,7 +147,6 @@ En esta sección se trabajan los datasets por separado.
 | punt_matematicas | Puntaje en matemáticas | Numérica |
 | punt_sociales_ciudadanas | Puntaje en sociales y ciudadanas | Numérica |
 
-
 ### 🔹 3. Exploración de datos
 - Análisis de variables educativas:
   - Población entre 5 y 16 años
@@ -162,9 +161,19 @@ En esta sección se trabajan los datasets por separado.
   - Promedios por área
   - Comparación entre Bogotá y Chocó
   - Visualización tipo radar
-
-### 🔹 4. Limpieza de los datos
-
+### 🔹 4. Reporte de Calidad
+Para cada uno de los dataset.
+### 🔹 5. Filtros, limpieza y transformación
+- Estadísticas en Educacion por Municipio
+  - Limpieza
+  -   Eliminacion de variables
+  -   Tipo y coherencia de los datos
+  - Transformacion
+- Respuestas Saber 11 Bogotá y Chocó Calendario A
+  - Filtros
+  - Transformacion
+  - Limpieza
+### 🔹 6. Respuestas preguntas de Negocio.
 ---
 
 ## ⚙️ Requisitos del sistema
